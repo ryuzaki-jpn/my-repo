@@ -3,5 +3,5 @@ on: workflow_dispatch
 jobs:
   test:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - uses: actions/setup-go@v4
